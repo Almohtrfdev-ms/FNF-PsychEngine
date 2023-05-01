@@ -118,7 +118,7 @@ class MainMenuState extends MusicBeatState
 		magenta.screenCenter();
 		magenta.visible = false;
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
-//		magenta.color = 0xFFfd719b;
+  	magenta.color = 0xFFfd719b;
 		add(magenta);
 		
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('bf_mod/splash'));
@@ -128,7 +128,7 @@ class MainMenuState extends MusicBeatState
 		magenta.screenCenter();
 		magenta.visible = false;
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
-//		magenta.color = 0xFFfd719b;
+		magenta.color = 0xFFfd719b;
 		add(magenta);
 		
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('bf_mod/bf'));
@@ -138,7 +138,7 @@ class MainMenuState extends MusicBeatState
 		magenta.screenCenter();
 		magenta.visible = false;
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
-//		magenta.color = 0xFFfd719b;
+		magenta.color = 0xFFfd719b;
 		add(magenta);
 		
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('bf_mod/blood'));
@@ -148,7 +148,7 @@ class MainMenuState extends MusicBeatState
 		magenta.screenCenter();
 		magenta.visible = false;
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
-//		magenta.color = 0xFFfd719b;
+	magenta.color = 0xFFfd719b;
 		add(magenta);
 		
 		// magenta.scrollFactor.set();
